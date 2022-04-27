@@ -1,0 +1,237 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Personas2.WebApi",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Enums/GetEnumTipoDocumento": {
+      "get": {
+        "tags": [
+          "Enums"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Personas2/GetAllPersonas": {
+      "get": {
+        "tags": [
+          "Personas2"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Personas2/SearchAllPersonas": {
+      "post": {
+        "tags": [
+          "Personas2"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Persona2ViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Personas2/SavePersona": {
+      "post": {
+        "tags": [
+          "Personas2"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Persona2ViewModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Personas2/DeletePersona": {
+      "post": {
+        "tags": [
+          "Personas2"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "format": "int32",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WeatherForecast"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Persona2ViewModel": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "activo": {
+          "type": "boolean"
+        },
+        "eliminado": {
+          "type": "boolean"
+        },
+        "usuarioRegistro": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "usuarioModifica": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "usuarioElimina": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "fechaRegistro": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "fechaModificado": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "fechaEliminado": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "nombres": {
+          "maxLength": 200,
+          "minLength": 0,
+          "type": "string"
+        },
+        "apellidos": {
+          "maxLength": 200,
+          "minLength": 0,
+          "type": "string"
+        },
+        "tipoDocumento": {
+          "format": "int32",
+          "default": 0,
+          "type": "integer"
+        },
+        "nombreTipoDocumento": {
+          "type": "string"
+        },
+        "noDocumento": {
+          "type": "string"
+        },
+        "fechaNacimiento": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "noContacto": {
+          "maxLength": 50,
+          "minLength": 0,
+          "type": "string"
+        },
+        "email": {
+          "maxLength": 200,
+          "minLength": 0,
+          "type": "string"
+        },
+        "direccion": {
+          "maxLength": 200,
+          "minLength": 0,
+          "type": "string"
+        }
+      }
+    },
+    "WeatherForecast": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "temperatureC": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "temperatureF": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "summary": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\bin\Debug\netcoreapp3.1\Personas2.Data.deps.json
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\bin\Debug\netcoreapp3.1\Personas2.Data.runtimeconfig.json
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\bin\Debug\netcoreapp3.1\Personas2.Data.runtimeconfig.dev.json
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\bin\Debug\netcoreapp3.1\Personas2.Data.dll
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\bin\Debug\netcoreapp3.1\Personas2.Data.pdb
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\obj\Debug\netcoreapp3.1\Personas2.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\obj\Debug\netcoreapp3.1\Personas2.Data.AssemblyInfoInputs.cache
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\obj\Debug\netcoreapp3.1\Personas2.Data.AssemblyInfo.cs
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\obj\Debug\netcoreapp3.1\Personas2.Data.csproj.CoreCompileInputs.cache
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\obj\Debug\netcoreapp3.1\Personas2.Data.dll
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\obj\Debug\netcoreapp3.1\Personas2.Data.pdb
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\obj\Debug\netcoreapp3.1\Personas2.Data.genruntimeconfig.cache
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\bin\Debug\netcoreapp3.1\Personas2.Domain.To.dll
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\bin\Debug\netcoreapp3.1\Personas2.Domain.To.pdb
+C:\Angular\Personas2\BackEnd\Personas2\Personas2.Data\obj\Debug\netcoreapp3.1\Personas2.Data.csproj.AssemblyReference.cache

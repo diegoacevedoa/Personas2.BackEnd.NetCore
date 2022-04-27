@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/Personas2WebApiapi/apis/Personas2BackEndWebApi",
+      "type": "apis.azure"
+    },
+    "mssql2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/personas2dbdbserver/databases/Personas2DB",
+      "type": "mssql.azure",
+      "connectionId": "ConexionDB",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

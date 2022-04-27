@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/personas2dbserver/databases/Personas2DB",
+      "type": "mssql.azure",
+      "connectionId": "ConexionDB",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
