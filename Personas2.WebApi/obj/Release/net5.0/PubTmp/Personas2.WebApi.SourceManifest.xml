@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Angular\Personas2\BackEnd\Personas2\Personas2.WebApi\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Angular\Personas2\BackEnd\Personas2\Personas2.WebApi\obj\Release\net5.0\PubTmp\EFSQLScripts\Personas2.Data.Context.Personas2Context.sql" />
+</sitemanifest>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Personas2.Domain.To/1.0.0": {
+        "runtime": {
+          "Personas2.Domain.To.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Personas2.Domain.To/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
